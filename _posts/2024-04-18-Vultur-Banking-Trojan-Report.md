@@ -42,7 +42,7 @@ Virus Total
 
 <picture>
 
-<img src=Screenshot 2024-04-04 161612.png width="400">
+<img src="_posts/Vultur_Folder_Images/Screenshot 2024-04-04 161612.png" width="400">
 
 </picture>
 
