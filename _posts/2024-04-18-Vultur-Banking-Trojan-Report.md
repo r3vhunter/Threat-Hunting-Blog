@@ -39,7 +39,7 @@ Virus Total
 
 <picture>
 
-<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png" width="400">
 
 </picture>
 
