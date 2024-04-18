@@ -1,6 +1,4 @@
----
-title: Android Vultur Banking Trojan 
----
+
 
 # Threat: Vultur
 
