@@ -148,6 +148,7 @@ The final executable iks a Dalvik Executable file (DEX). The DEX file holds VUlt
 
 
 ![FCM Commands](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/FCM%20commands%20.png)
+
 Decompikled code where FCM commands are being used. 
 
 
