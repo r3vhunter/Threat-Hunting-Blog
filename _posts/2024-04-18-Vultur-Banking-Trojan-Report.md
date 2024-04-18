@@ -39,7 +39,7 @@ Virus Total
 
 <picture>
 
-<img src="https://www.virustotal.com/gui/file/edef007f1ca60fdf75a7d5c5ffe09f1fc3fb560153633ec18c5ddb46cc75ea21?nocache=1">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png">
 
 </picture>
 
