@@ -37,7 +37,7 @@ Analysis
 
 Virus Total 
 
-<img ![VirusTotal](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png) >
+<img src=![VirusTotal](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png)>
 
 
 In the sample I have attained here is some information below regarding the Hash edef007f1ca60fdf75a7d5c5ffe09f1fc3fb560153633ec18c5ddb46cc75ea21
