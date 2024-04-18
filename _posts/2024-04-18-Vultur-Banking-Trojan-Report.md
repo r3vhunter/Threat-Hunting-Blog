@@ -63,24 +63,24 @@ Process: com[.]wsandroid.suite
 
 When unpacking the zip file the following appeared folders appeared and three files.  
 
-[!Files](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/APK%20package.png)
+![Files](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/APK%20package.png)
 
 Within the APK package for the Security MacaFee it uses two languages BASIC and Kotlin  and the library used for the malware is Basic4Android. The APK file also has multiple DEX nad ELF32 files in there as well. \
 I provided a screenshot below when analyzing the APK file using Detect It Easy (DIE). 
 
 
 
-[!DIE](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/APK%20file%20Analysis%20DIE.png)
+![DIE](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/APK%20file%20Analysis%20DIE.png)
 
 
 Check the Entropy and ninety eight percent of the APK file for MacAfee secuirty is packed. 
-[!Entrophy](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Entropy%20DIE.png)
+![Entrophy](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Entropy%20DIE.png)
 
 
 
 Check the Hex Values as well and as you can see from the image below, its mostly encrpted, but we can see a dex file within the APK's memory. 
 
-[!Encrpyted](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Hex%20snapshot%20.png)
+![Encrpyted](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Hex%20snapshot%20.png)
 
 
 
@@ -88,7 +88,7 @@ Check the Hex Values as well and as you can see from the image below, its mostly
 The message sent by the malware operator through FCM can caontain a command, whichm, upon reciet triggers, the execution of corresponding fucntionality within the malware. This will elimate the ongoing connection 
 with the device. Here is a screenshot of the code snippet below regarding Vultar's ability to perform clicks and scrolls using Acessbility Services.
 
-[!Vultur](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/FCM%20commands%20.png)
+![Vultur](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/FCM%20commands%20.png)
 
 
 Capabilities
@@ -104,7 +104,7 @@ Vultur latest variants now adopt AES encryption and Base64 encoding in their HTT
 
 
 
-[!HTTP Traffic](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/HTTP%20traffic.png)
+![HTTP Traffic](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/HTTP%20traffic.png)
 
 AES and Base64 Encrypted traffic for the bot registration. 
 
@@ -115,7 +115,7 @@ Vulur Execution FLow
 The Brunhilda dropper in this campaign is a modifie dversion of the legitimate McAfee Secuirty App.
 
 
-[!McAfee Screenshot](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/McAffe%20screenshot.png)
+![McAfee Screenshot](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/McAffe%20screenshot.png)
 
 Once installed the device is registered to a C2 sever and the C2 is prtovided with the following informaiton: 
 - Malware package name: com[.]wsandroid.suite package
@@ -135,7 +135,7 @@ In order for the attacker to have full access to the remote decvice, Vultur has 
 The First Payload obtains Accessibility Service Periviliages and installs the next Vultur APK file. The reason attackers want this is because Apps with Accessibility Service Permission can have full visibility over UI events, both from the system and from 3rd party apps. The accessibliity service is great for assisitn usersm but for attackers they can perform keyloggiong, grant additional permissions, and monitor other apps.
 
 
-[!Vultur payload](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Vultur%201.png)
+![Vultur payload](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Vultur%201.png)
 
 
 The payload will then display a fake error meesage saying  "Your system is not safe, Service McAfee master Proterction turned off. For using full device protection turn on." Once the victim clicks on turn on, the Shared Preference key is set to true. 
@@ -149,7 +149,7 @@ Vultur Payload 3
 The final executable iks a Dalvik Executable file (DEX). The DEX file holds VUltur's core functionality. The file contains all the C2 methods used to communicate from bot to C2 server. FCM commands are used in communication from C2 server to bot.
 
 
-[!FCM Commands](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/FCM%20commands%20.png)
+![FCM Commands](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/FCM%20commands%20.png)
 Decompikled code where FCM commands are being used. 
 
 
