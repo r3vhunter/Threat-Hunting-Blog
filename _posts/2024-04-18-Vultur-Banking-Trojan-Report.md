@@ -155,7 +155,7 @@ Decompikled code where FCM commands are being used.
 # Recommendations 
 
 It is always a good idea to check the permissions an app requests when installed and make sure that you consnet only to those needed for the app's core fucntionality. And recently on April 3, 2024, Google spokesperson stated that Android users are automatically protected 
-against known versions of this malware by Google Play Protect, which is on by default on Android devices with Gole Play services. Google Play Protect can also warn users to block apps known to exhibit malicious behavior, even when those apps come from sources outside of Play. 
+against known versions of this malware by Google Play Protect, which is on by default on Android devices with Google Play services. Google Play Protect can also warn users to block apps known to exhibit malicious behavior, even when those apps come from sources outside of Play. 
 
 
 
