@@ -33,13 +33,13 @@ the dropper decrypts and executes a total of 3 Vultar-related patyloads, giving 
 Vultur is able to remotely interact with the infected device hrough the use of Android's Acessibility Sercvices. With this new capability, Attackers can now send commandsin ordfer to perform cliocks, scrolls, and swipe gestures. 
 The attacker sends messages to the C2 server by using Firebase Cloud Messaging (FCM) provided by Google. 
 
-Analysis 
+# Analysis 
 
-Virus Total
+# Virus Total
 
 <picture>
 
-<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png" width="400">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png">
 
 </picture>
 
