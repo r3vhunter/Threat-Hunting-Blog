@@ -89,6 +89,7 @@ with the device. Here is a screenshot of the code snippet below regarding Vultar
 
 
 # Capabilities
+
 . Rmotely Interact with the infected device using Android's Accessibility Services and perfom clicks, scrolls, and swipe gestures. 
 . Use Firebase Cloud Messaging (FCM): A messaging service provided by Googel to send commands from the C2 server to the indfected device. 
 . Using FCM the attacker sends a message to te messaging service and the message will contain a command, which will trigger the execution within the malware within the device.
