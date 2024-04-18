@@ -40,7 +40,13 @@ Analysis
 
 Virus Total 
 
-![Vultur-Folder-Images](Vultur_Folder_Images/Screenshot 2024-04-04 161612.png)
+<picture>
+
+<img src=https://www.virustotal.com/gui/file/edef007f1ca60fdf75a7d5c5ffe09f1fc3fb560153633ec18c5ddb46cc75ea21?nocache=1 width="400">
+
+</picture>
+
+<br>
 
 
 In the sample I have attained here is some information below regarding the Hash edef007f1ca60fdf75a7d5c5ffe09f1fc3fb560153633ec18c5ddb46cc75ea21
