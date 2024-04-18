@@ -1,5 +1,4 @@
 ---
-layout:
 title: Android Vultur Banking Trojan 
 ---
 
@@ -16,7 +15,7 @@ Vlutur in its top 10 most active banking trojans for the year. Nine of Vlutur va
 The more evasive version of Vultur spreads to victims through a hybrid attack that relies on SMS phsihing and phone calls that trick the targets into installing a version of the malware that masquarades as the McAfee 
 Secuirty app. 
 
-Vultur's Infeciton Chain 
+# Vultur's Infeciton Chain 
 1: Starts with the victim receiving an SMS message alerting of an unauthroized transaction and instructing to call a provided number for guidance. 
 2: The call is answered by a fraudster who persuades the victim to open the link arriving with a second SMS,which directs to a site that offers a modified version of Macafee Security App. 
 3: The new modified version of the trojaniozed Macafee App is installed which also has the Brunhilda malware dropper. Brunhilda is responsible for hosting malicious applications on the Google Play Store. As illustrated below
@@ -32,7 +31,7 @@ the dropper decrypts and executes a total of 3 Vultar-related patyloads, giving 
 <br>
 
 
-New Feratures in Vultur
+# New Feratures in Vultur
 Vultur is able to remotely interact with the infected device hrough the use of Android's Acessibility Sercvices. With this new capability, Attackers can now send commandsin ordfer to perform cliocks, scrolls, and swipe gestures. 
 The attacker sends messages to the C2 server by using Firebase Cloud Messaging (FCM) provided by Google. 
 
@@ -51,7 +50,7 @@ Triage
 ![Triage](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Triage%20report%20.png)
 
 
-Signatures
+# Signatures
 
 Accquires the wake lock
 Reads information about phone network operator.
@@ -91,14 +90,14 @@ with the device. Here is a screenshot of the code snippet below regarding Vultar
 ![Vultur](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/FCM%20commands%20.png)
 
 
-Capabilities
+# Capabilities
 . Rmotely Interact with the infected device using Android's Accessibility Services and perfom clicks, scrolls, and swipe gestures. 
 . Use Firebase Cloud Messaging (FCM): A messaging service provided by Googel to send commands from the C2 server to the indfected device. 
 . Using FCM the attacker sends a message to te messaging service and the message will contain a command, which will trigger the execution within the malware within the device.
  
 
 
-Vultur Obfuscation techniques
+# Vultur Obfuscation techniques
 
 Vultur latest variants now adopt AES encryption and Base64 encoding in their HTTP requests. Variants of Vultur in 2022, Brunhilda and Vultur did not have encrpyted HTTP traffic, but did use string obfuscation in Vultur and Brunhilda when being delivered to the victim's Android Device. 
 
@@ -111,7 +110,7 @@ AES and Base64 Encrypted traffic for the bot registration.
 
 
 
-Vulur Execution FLow
+# Vulur Execution FLow
 The Brunhilda dropper in this campaign is a modifie dversion of the legitimate McAfee Secuirty App.
 
 
@@ -128,7 +127,7 @@ Once installed the device is registered to a C2 sever and the C2 is prtovided wi
 Then the server respons eias decrypted and stored in a SharedPreference key named 9bd25f13-c3f8-4503-ab34-4bbd63004b6e, and once the bot regestration si successfult, the 3 stages of the Vultur payload will be decrpyted. 
 
 
-Vultur Payloads
+# Vultur Payloads
 
 In order for the attacker to have full access to the remote decvice, Vultur has three stages and each stages have their own functionality. The sample that I analyzed was the Brunhilda dropper with the package file name, com[.]wsandroid.suite. 
 
@@ -141,11 +140,11 @@ The First Payload obtains Accessibility Service Periviliages and installs the ne
 The payload will then display a fake error meesage saying  "Your system is not safe, Service McAfee master Proterction turned off. For using full device protection turn on." Once the victim clicks on turn on, the Shared Preference key is set to true. 
 And the attacke hash full permission to drop the next stage of Vultur. 
 
-Vultur Payload 2
+# Vultur Payload 2
 The second payload contains tools such as AlphaVNc, ngrop setup, and screen recording. The payload uses an Android Acessibility Suite package called com[.]google[.]android[.]marvin[.]talkback. This package will be used to reference methods used in the final payload to gain 
 full acess to the device. 
 
-Vultur Payload 3
+# Vultur Payload 3
 The final executable iks a Dalvik Executable file (DEX). The DEX file holds VUltur's core functionality. The file contains all the C2 methods used to communicate from bot to C2 server. FCM commands are used in communication from C2 server to bot.
 
 
@@ -153,7 +152,8 @@ The final executable iks a Dalvik Executable file (DEX). The DEX file holds VUlt
 Decompikled code where FCM commands are being used. 
 
 
-Recommendations 
+# Recommendations 
+
 It is always a good idea to check the permissions an app requests when installed and make sure that you consnet only to those needed for the app's core fucntionality. And recently on April 3, 2024, Google spokesperson stated that Android users are automatically protected 
 against known versions of this malware by Google Play Protect, which is on by default on Android devices with Gole Play services. Google Play Protect can also warn users to block apps known to exhibit malicious behavior, even when those apps come from sources outside of Play. 
 
