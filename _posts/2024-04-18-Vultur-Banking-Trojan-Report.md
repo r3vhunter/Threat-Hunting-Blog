@@ -22,7 +22,7 @@ the dropper decrypts and executes a total of 3 Vultar-related patyloads, giving 
 
 <picture>
 
-<img src=https://www.bleepstatic.com/images/news/u/1220909/2024/Android/07/infection-chain.jpg width="400">
+<img src="https://www.bleepstatic.com/images/news/u/1220909/2024/Android/07/infection-chain.jpg" width="400">
 
 </picture>
 
