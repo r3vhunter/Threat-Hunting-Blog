@@ -49,9 +49,13 @@ In the sample I have attained here is some information below regarding the Hash 
 
 
 Triage
+<picture>
 
-![Triage](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Triage%20report%20.png)
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Triage%20report%20.png">
 
+</picture>
+
+<br>
 
 # Signatures
 
