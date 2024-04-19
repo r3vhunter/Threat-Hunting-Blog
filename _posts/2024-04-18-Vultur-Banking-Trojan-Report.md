@@ -39,7 +39,7 @@ The attacker sends messages to the C2 server by using Firebase Cloud Messaging (
 
 <picture>
 
-<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Vultur_Folder_Images/Screenshot%202024-04-04%20161612.png" alt="">
 
 </picture>
 
