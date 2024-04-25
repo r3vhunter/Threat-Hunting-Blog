@@ -108,6 +108,17 @@ Cerber ransomware requires a combination of technical and operational measures d
 . Implemnet a robust backup and recovery plan to ensure that the organization has a copy of its data and can restore it in case of an attack. 
 
 
+# Yara Rule 
+
+<picture>
+
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Cerber_Ransomware/custom%20yara%20rule%20.png">
+
+</picture>
+
+<br> 
+
+
 
 
 
