@@ -41,7 +41,17 @@ The second payload is the log checker, and it serves as a permission chekcer. Wh
 
 # Payload 3 (ce51278578b1a24c0fc5f8a739265e88f6f8b32632cf31bf7c142571eb22e243) 
 
-The encrpytor encrypts files ont he filesystem. The payload is UPX packed, Upon execution, the apyload 
+The encrpytor encrypts files ont he filesystem. The payload is UPX packed, Upon execution, the payload delets itself off disk ans stores itself within the system memory so no artifacts are left. Then the encrpytor spawns a new thread to do actual encrpytion and writes a ransom note in the current directory its in, /<directory>/read-me3.txt. All files within the current directory will be encrpyted and once the whole directory is encryptedm moves to the next directory and appends a "LOCK3D" extension. 
+
+
+Linux Variant Cerber Ranosmware note
+
+
+
+# Recommendations 
+
+
+
 
 
  
