@@ -1,6 +1,6 @@
 
 
-# What is Cerbe1r 
+# What is Cerber 
 
 Cerber(aka C3rb3r) ransomware operates as a semi-private Ransomware-AS-a-Service(RaaS) and was the first obsevers in 2016. Cerber oeprations peaked between 2016 and 2017. From 2020 onward, there have been spradic Cerber campignss with contemporary payloads supporting both Linux and Windows operating systems. In late 2023, Cerber resurfaced again in a new campaign targeting ecxposed Atlassian Confluence Data Center and Server prodcuts using CVE-2023-22518. There is a large amount of copverage on the Windows variant, however there is very little about the Linux variant. In this report we are going to discuss the Linux variant.
 
@@ -36,7 +36,12 @@ The ransomware consits of three highly obfuscated C++ payloads, compiled as aa 6
 # AGTTYDCK
 # Hash (1849bc76e4f9f09fc6c88d5de1a7cb304f9bc9d338f5a823b7431694457345bd)
 
-The second payload is the log checker, and it serves as a permission chekcer. When run, it concatenates each argument passed to it and delimits with forward slashes to obtain a full 
+The second payload is the log checker, and it serves as a permission chekcer. When run, it concatenates each argument passed to it and delimits with forward slashes to obtain a full path. Then it tries to open the file in write mode and if ther is a success it returns a 0. If it is unsuccessful, it returns 1. 
+
+
+# Payload 3 (ce51278578b1a24c0fc5f8a739265e88f6f8b32632cf31bf7c142571eb22e243) 
+
+The encrpytor encrypts files ont he filesystem. The payload is UPX packed, Upon execution, the apyload 
 
 
  
