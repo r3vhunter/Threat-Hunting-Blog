@@ -1,6 +1,6 @@
 
 
-# What is Cerber 
+# What is Cerber (Linux Variant) 
 
 Cerber(aka C3rb3r) ransomware operates as a semi-private Ransomware-AS-a-Service(RaaS) and was the first obsevers in 2016. Cerber oeprations peaked between 2016 and 2017. From 2020 onward, there have been spradic Cerber campignss with contemporary payloads supporting both Linux and Windows operating systems. In late 2023, Cerber resurfaced again in a new campaign targeting ecxposed Atlassian Confluence Data Center and Server prodcuts using CVE-2023-22518. There is a large amount of copverage on the Windows variant, however there is very little about the Linux variant. In this report we are going to discuss the Linux variant.
 
