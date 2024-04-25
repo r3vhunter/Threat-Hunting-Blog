@@ -11,7 +11,7 @@ In Cerber's new campign the attacker leverages CVE-2023-22518 to gain access to 
 
 <picture> 
 
-<img src="" width="400"
+<img src="_posts/Cerber_Ransomware/cerber ransomware traffic.png" width="400"
 
 </picture>
 
