@@ -11,7 +11,7 @@ In Cerber's new campign the attacker leverages CVE-2023-22518 to gain access to 
 
 <picture> 
 
-<img src="_posts/Cerber_Ransomware/cerber ransomware traffic.png" width="400">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Cerber_Ransomware/cerber%20ransomware%20traffic.png" width="400">
 
 </picture>
 
@@ -35,7 +35,7 @@ The ransomware consits of three highly obfuscated C++ payloads, compiled as a 64
 
 <picture> 
 
-<img src="_posts/Cerber_Ransomware/Cerber Payload 1 Hash.png" width="400">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Cerber_Ransomware/Cerber%20Payload%201%20Hash%20.png" width="400">
 
 </picture>
 
@@ -57,7 +57,7 @@ Figure 2: Hash in Virus Total
 
 <picture>
 
-<img src="_posts/Cerber_Ransomware/payload 2 hash.png" width="400">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Cerber_Ransomware/payload%202%20hash%20.png" width="400">
 
 </pictrue> 
 
@@ -72,7 +72,7 @@ The second payload is the log checker, and it serves as a permission chekcer. Wh
 
 <picture> 
 
-<img src="_posts/Cerber_Ransomware/payload 3 hash.png" width="400">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Cerber_Ransomware/payload%203%20hash%20.png" width="400">
 
 </picture>
 
@@ -85,7 +85,7 @@ The encrpytor encrypts files ont he filesystem. The payload is UPX packed, Upon 
 
 <picture> 
 
-<img src="_posts/Cerber_Ransomware/cerber ransom note .png" width="400">
+<img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Cerber_Ransomware/cerber%20ransom%20note%20.png" width="400">
 
 Figure 5: Linux Variant Cerber Ranosmware note
 
