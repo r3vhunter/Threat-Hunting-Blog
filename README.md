@@ -4,3 +4,5 @@ This site is still in the works so be patient as I work on the blog. First blog 
 
 # [Vultur Banking Trojan](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/2024-04-18-Vultur-Banking-Trojan-Report.md)
 
+# [Cerber Ransomware Linux Variant](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Cerber_Ransomware/2024-04-18-Cerber-Ransomware-Report.md)
+
