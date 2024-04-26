@@ -53,6 +53,7 @@ The primary payload is packed with UPX, and its main purpose is to set up the en
 
 
 # AGTTYDCK
+
 # Hash (1849bc76e4f9f09fc6c88d5de1a7cb304f9bc9d338f5a823b7431694457345bd)
 
 <picture>
@@ -69,7 +70,8 @@ The second payload is the log checker, and it serves as a permission chekcer. Wh
 
 
 # Payload 3
- # Hash (ce51278578b1a24c0fc5f8a739265e88f6f8b32632cf31bf7c142571eb22e243) 
+
+# Hash (ce51278578b1a24c0fc5f8a739265e88f6f8b32632cf31bf7c142571eb22e243) 
 
 <picture> 
 
@@ -108,6 +110,8 @@ Cerber ransomware requires a combination of technical and operational measures d
 . Educate and train employees on vybersecuirty best practices, including idneitifying and reporting suspicious emails or other treats. 
 
 . Implemnet a robust backup and recovery plan to ensure that the organization has a copy of its data and can restore it in case of an attack. 
+
+
 
 
 # Yara Rule 
