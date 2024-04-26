@@ -43,7 +43,7 @@ The ransomware consits of three highly obfuscated C++ payloads, compiled as a 64
 
 Figure 2: Hash in Virus Total 
 
- The primary payload is packed with UPX, and its main purpose is to set up the enviorment and gather the other payloads to run. Below I described the execution sequence as follows: 
+The primary payload is packed with UPX, and its main purpose is to set up the enviorment and gather the other payloads to run. Below I described the execution sequence as follows: 
 
  1: Once the payload is executedm it unpacks itself and creats a file in the directory /var/locl/0init-ld.lo. Creating a fikle here will prevent duplicate execution of the ransomware. 
  2: Once the file is created, it connects to C2 server 45.145.6.112 and gets the second payload agttydck, a log checker. It retireves the log checker by doing GET/agttydcki64 and writing the payload to a temporary directory /tmp/agttydck.bat. 
@@ -68,7 +68,8 @@ Figure 3: Hash in Virus Total
 The second payload is the log checker, and it serves as a permission chekcer. When run, it concatenates each argument passed to it and delimits with forward slashes to obtain a full path. Then it tries to open the file in write mode and if ther is a success it returns a 0. If it is unsuccessful, it returns 1. 
 
 
-# Payload 3 (ce51278578b1a24c0fc5f8a739265e88f6f8b32632cf31bf7c142571eb22e243) 
+# Payload 3
+ # Hash (ce51278578b1a24c0fc5f8a739265e88f6f8b32632cf31bf7c142571eb22e243) 
 
 <picture> 
 
@@ -92,6 +93,7 @@ Figure 5: Linux Variant Cerber Ranosmware note
 </picture> 
 
 <br> 
+
 
 
 # Recommendations 
