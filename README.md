@@ -1,6 +1,7 @@
 # Welcome to my Threat Hunting Blog
 
-This site is still in the works so be patient as I work on the blog. First blog is coming out soon. 
+Hey there! My name is Re3v and I am a malware analyst and reverse engineer that loves sharing my findings and knowledge to anyone intrested in malware investigation. 
+
 
 # [Vultur Banking Trojan](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/2024-04-18-Vultur-Banking-Trojan-Report.md)
 
