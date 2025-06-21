@@ -9,4 +9,4 @@ Hey there! My name is Re3v and I am a malware analyst and reverse engineer that 
 
 # [CrushFTP](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/CrushFTP(CVE-2024-4040)/2024-04-18-CrushFTP.md)
 
-# [Myth Stealer](https://github.com/r3vhunter/Threat-Hunting-Blog/tree/master/_posts/Mtyth%20Stealer)
+# [Myth Stealer](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Mtyth%20Stealer/Myth%20Stealer.md)
