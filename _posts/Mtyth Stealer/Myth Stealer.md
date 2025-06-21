@@ -5,6 +5,7 @@ Security researchers at Trellix identified a fully undetected information steale
 <img src="https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Mtyth%20Stealer/telegrampost.png" >
 
 </picture>
+
 Figure 1: Telegram Post
 
 # How is this Malware distributed 
