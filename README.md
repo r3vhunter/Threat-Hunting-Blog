@@ -11,4 +11,4 @@ Hey there! My name is Re3v and I am a malware analyst and reverse engineer that 
 
 # [Myth Stealer](https://github.com/r3vhunter/Threat-Hunting-Blog/blob/master/_posts/Mtyth%20Stealer/Myth%20Stealer.md)
 
-#[Amatera Stealer](_posts/Amatera_Stealer/Amatera_Stealer.md)
+# [Amatera Stealer](_posts/Amatera_Stealer/Amatera_Stealer.md)
