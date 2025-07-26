@@ -23,7 +23,7 @@ Amatera Stealer primarily targets information from installed software such as br
 
 - Stealing files on disk for file paths pertaining to software wallets
 - Stealing files on disk that match a specific extension or keyword
-- Stealingh browsing data relating to Cookies, Web Forums, Profile Data (Web history)
+- Stealing browsing data relating to Cookies, Web Forums, Profile Data (Web history)
 - Bypasses App Bound Encryption for Chrome-related browsers by injecting a shellcode into the browser which causes it to copy sensitive files to a location that can be exfiltrated by the malware.
 - Stealing information from extensions such as password managers and crypto wallets.
 - Stealing email information from connection management software such as FTP and SSH.
